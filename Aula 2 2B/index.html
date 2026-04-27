@@ -1,0 +1,68 @@
+<style>
+    body { font-family: sans-serif; padding: 20px; line-height: 1.6; transition: 0.3s; }
+    section { border-bottom: 1px solid #ccc; padding-bottom: 20px; margin-bottom: 20px; }
+    .dark-mode { background-color: #222; color: white; }
+    ul { margin-top: 10px; }
+    li { cursor: pointer; margin-bottom: 5px; }
+    .item-btn { margin-left: 10px; color: red; cursor: pointer; }
+</style>
+
+<h2>Fundamentos</h2>
+
+<section>
+    <input type="text" id="input1" placeholder="Digite algo">
+    <button onclick="ex1()">Mostrar</button>
+    <p id="res1"></p>
+</section>
+
+<section>
+    <input type="text" id="input2" placeholder="Seu nome">
+    <button onclick="ex2()">Saudar</button>
+    <p id="res2"></p>
+</section>
+
+<section>
+    <input type="number" id="input3" placeholder="Sua idade">
+    <button onclick="ex3()">Verificar idade</button>
+    <p id="res3"></p>
+</section>
+
+<section>
+    <button onclick="ex4()">Mudar cor de fundo aleatória</button>
+</section>
+
+<h2>Interação</h2>
+
+<section>
+    <button onclick="ex5()">Alternar Modo Escuro</button>
+</section>
+
+<section>
+    <input type="text" id="input6" placeholder="Item da lista">
+    <button onclick="ex6()">Adicionar à Lista</button>
+    <ul id="lista6"></ul>
+    <small>* Clique no item para remover (Ex 7)</small>
+</section>
+
+<h2>Lógica + DOM</h2>
+
+<section>
+    <input type="number" id="input8" placeholder="Número">
+    <button onclick="ex8()">Par ou Ímpar?</button>
+    <p id="res8"></p>
+</section>
+
+<section>
+    <input type="password" id="input9" placeholder="Senha">
+    <button onclick="ex9()">Validar Senha</button>
+    <p id="res9"></p>
+</section>
+
+<h2>Mini Sistema (Desafio)</h2>
+
+<section>
+    <input type="text" id="nomeSistema" placeholder="Nome">
+    <button onclick="adicionarSistema()">Adicionar</button>
+    <p>Total de itens: <span id="contador">0</span></p>
+    <ul id="listaSistema"></ul>
+</section>
